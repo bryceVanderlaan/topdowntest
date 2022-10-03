@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="10" nextobjectid="1">
+<map version="1.9" tiledversion="1.9.2" orientation="orthogonal" renderorder="right-down" width="32" height="32" tilewidth="32" tileheight="32" infinite="0" nextlayerid="13" nextobjectid="37">
  <tileset firstgid="1" source="Top Down Farmlands/Farmlands.tsx"/>
  <tileset firstgid="1377" source="Green Village/Village.tsx"/>
  <layer id="1" name="Tile Layer 1" width="32" height="32">
@@ -37,4 +37,36 @@
    eJxjYKAueMXM0PASiNHFgWIgOYpBMSt+eS4WhgZOFkz7gWIguREDNKFxoMmMyh8ogGz/BiB7/QC65wLQ7vN47L8DTGN3CaQzWoK3QLvfUWA/elwj87ug6QFXPqUXwJVPyQGr8IRVFxXKHEJgN5L9sHDFl9/wybVCzSIlDZ5BUocrXEHhAMxzoLyHF0yDmkVpGsQGgHkOlPeoDooGIK+60N9KmgD0+nQgwnKgAKG2BLXM3gpsd2xDanvUAtl1VGiLoMcVuj0wcBUodg1JfC6QPY8I+7GFz1+gvn849KLbQy2A7C9ZoJvkaBhvwHhpqEUrP2nlL2wAGC8Nc8moF3HFPbUBLE1YA+2yQbIPPYzQ5akNooFmx+Axn5D8UAC0LJ9GwSgAAQCs9EP6
   </data>
  </layer>
+ <objectgroup id="12" name="Collisions">
+  <object id="2" x="0.479249" y="319.18">
+   <polyline points="0,0 102.559,0.479249 101.121,128.918 446.66,128.918 447.618,-33.0681 415.988,-33.0681 415.988,95.3705 159.59,94.8912 160.069,42.6531 122.688,42.6531 122.688,0 137.544,0 138.024,31.6304 159.111,31.6304 159.59,-35.4644 144.733,-35.4644 144.254,-80.5138 158.152,-80.5138 158.152,-65.657 223.33,-65.1778 222.371,-129.876 368.542,-127.959"/>
+  </object>
+  <object id="5" x="384.153" y="31.7323" width="28.8475" height="31.2515"/>
+  <object id="6" x="544.147" y="287.736" width="31.3261" height="88.7574"/>
+  <object id="7" x="609.7" y="287.736" width="29.5858" height="124.144"/>
+  <object id="8" x="610.28" y="2.90057" width="25.525" height="122.404"/>
+  <object id="9" x="576.053" y="0" width="31.3261" height="160.111"/>
+  <object id="10" x="576.053" y="190.857" width="31.3261" height="255.25"/>
+  <object id="12" x="606.445" y="413.65" width="418.175" height="34.3954"/>
+  <object id="13" x="928.675" y="0.905141" width="94.1347" height="126.72"/>
+  <object id="14" x="375.202" y="188.679">
+   <polyline points="0,0 1.07817,-189.757 -199.461,-189.757"/>
+  </object>
+  <object id="16" x="0" y="605.93" width="32.345" height="160.647"/>
+  <object id="17" x="33.4232" y="642.588" width="29.1105" height="93.8005"/>
+  <object id="18" x="94.8787" y="603.774" width="32.345" height="100.27"/>
+  <object id="19" x="35.5795" y="604.852" width="73.3154" height="98.1132"/>
+  <object id="24" x="141.24" y="798.922" width="69.0027" height="94.8787"/>
+  <object id="25" x="364.42" y="832.345" width="70.0809" height="95.9569"/>
+  <object id="26" x="40.9704" y="959.569" width="702.965" height="64.69"/>
+  <object id="27" x="741.779" y="950.943" width="156.334" height="72.2372"/>
+  <object id="28" x="927.224" y="948.787" width="95.9569" height="76.5499"/>
+  <object id="29" x="527.224" y="850.674" width="67.9245" height="108.895"/>
+  <object id="30" x="654.447" y="823.72" width="69.0027" height="105.66"/>
+  <object id="31" x="787.062" y="797.844" width="58.221" height="102.426"/>
+  <object id="32" x="840.97" y="661.995" width="77.628" height="104.582"/>
+  <object id="33" x="941.24" y="661.995" width="67.9245" height="106.739"/>
+  <object id="34" x="945.553" y="793.531" width="78.7062" height="152.022"/>
+  <object id="36" x="12.938" y="735.31" width="66.8464" height="97.035"/>
+ </objectgroup>
 </map>

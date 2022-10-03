@@ -58,7 +58,7 @@ public class Player extends Sprite implements InputProcessor {
         }
 
         // move on y
-        setY(getY() + velocity.y * delta * 5f);
+        setY(getY() + velocity.y * delta);
 
         // calculate the increment for step in #collidesBottom() and #collidesTop()
         increment = collisionLayer.getTileHeight();
@@ -66,7 +66,7 @@ public class Player extends Sprite implements InputProcessor {
 
         if (velocity.y < 0) // going down
             collisionY = collidesBottom();
-        else if (velocity.y > 0) // going up
+        else if (velocity.y > 0) // going upw
             collisionY = collidesTop();
 
         // react to y collision
@@ -158,6 +158,9 @@ public class Player extends Sprite implements InputProcessor {
             case Keys.A:
             case Keys.D:
                 velocity.x = 0;
+            case Keys.W:
+            case Keys.S:
+                velocity.y = 0;
         }
         return true;
     }
